@@ -1,0 +1,95 @@
+* {
+margin: 0;
+padding:0;
+box-sizing:border-box
+
+}
+:root {
+    --color-primary: #2d4a5c;
+    --color-white: #8f7d7d;
+    --color-orange-hover: #000000;
+    --color-orange-default: #321f1f;
+}
+body {
+font-family:Arial, sans-serif;
+
+}
+/*Navbar*/
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: var(--color-white);
+    box-shadow: black 0px 0px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav  .nama {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.menu-navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-navbar li {
+    list-style: none;
+}
+
+.menu-navbar li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/hero section/
+#home {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 20px 30px;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+#home div h1 {
+  color: var(--color);
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+#home div p {
+  color: var(--color-);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+#home div a {
+  background-color: var(--color-orange-default);
+  color: var(--color-white);
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.452) 0px 3px 0px
+}
+
+#home div a:hover {
+  background-color: var(--color-orange-default);
+}
+
+#home img {
+  width: 400px;
+  height: 400px;
+}
